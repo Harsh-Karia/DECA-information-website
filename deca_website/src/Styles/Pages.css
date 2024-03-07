@@ -1,0 +1,38 @@
+body {
+    background-color: white
+}
+
+.blue {
+    color: #0072ce;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color:black;
+}
+
+.silver {
+    color: #8c9091;
+}
+
+.gold {
+    color: #85754e;
+}
+
+p{
+    color: #8c9091;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+h1{
+    color: #0072ce;
+    font-family: 'Gotham Bold', sans-serif;
+}
+
+h2 {
+    color: #0072ce;
+}
+

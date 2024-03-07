@@ -1,14 +1,15 @@
 import React from "react";
-import '../styles.css'
+//import '../styles.css'
+import '../nav.css'
 import { Link } from "react-router-dom";
 
 export default function Navbar(){
 	return(
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container px-5">
-    <a className="navbar-brand" href="#!">
-      Start Bootstrap
-    </a>
+    <Link className="navbar-brand" to ='/'>
+      DECA
+    </Link>
     <button
       className="navbar-toggler"
       type="button"

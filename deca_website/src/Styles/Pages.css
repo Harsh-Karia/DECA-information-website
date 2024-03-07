@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: white
 }
 
 .blue {
@@ -24,10 +24,12 @@ body {
 
 p{
     color: #8c9091;
+    font-family:'Source Sans Pro', sans-serif;
 }
 
 h1{
-    color: white;
+    color: #0072ce;
+    font-family: 'Gotham Bold', sans-serif;
 }
 
 h2 {

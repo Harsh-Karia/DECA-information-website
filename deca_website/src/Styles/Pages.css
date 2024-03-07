@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+}
+
+.blue {
+    color: #0072ce;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color:black;
+}
+
+.silver {
+    color: #8c9091;
+}
+
+.gold {
+    color: #85754e;
+}
+
+p{
+    color: #8c9091;
+}
+
+h1{
+    color: white;
+}
+
+h2 {
+    color: #0072ce;
+}
+

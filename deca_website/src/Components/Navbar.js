@@ -42,6 +42,10 @@ export default function Navbar(){
         <li className="nav-item">
           <Link className="nav-link" to="/apply"> Apply </Link>
         </li>
+
+        <li className="nav-item">
+          <Link className="nav-link" to="/events"> Events </Link>
+        </li>
         
       </ul>
     </div>

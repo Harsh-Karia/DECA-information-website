@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Apply from './Pages/Apply';
+import Events from './Pages/Events';
 import Home from './Pages/Home';
 import Footer from './Components/Footer';
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/' element= {<Home/>}/>
           <Route path='/about' element= {<About/>}/>
           <Route path='/contact' element= {<Contact/>}/>
+          <Route path='/contact' element= {<Events/>}/>
           <Route path='/apply' element= {<Apply/>}/>
         </Routes>
       </Container>

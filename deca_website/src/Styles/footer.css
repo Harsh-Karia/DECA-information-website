@@ -1,0 +1,16 @@
+.ctn{
+	background-color: #0f487c;
+	gap: 1rem;
+	padding: 0.01rem;
+	bottom: 100%
+	
+}
+
+.footer{
+	text-align: center;
+	font-family: 'Gotham Bold';
+	color: white;
+	top: 50%;
+	
+	
+}

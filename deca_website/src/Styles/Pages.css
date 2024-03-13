@@ -32,10 +32,21 @@ h1{
     color: #0072ce;
     /* font-family: 'Gotham Bold', sans-serif; */
     /* font-weight: 2200px; */
-    font-size: 1200px;
+    font-size: 50px;
 }
 
 h2 {
     color: #0072ce;
 }
 
+.box {
+    display: inline-flex;
+}
+.leftBox {
+    float:left;
+    justify-content: space-around;
+}
+.rightBox {
+    float:right;
+    justify-content: space-around;
+}

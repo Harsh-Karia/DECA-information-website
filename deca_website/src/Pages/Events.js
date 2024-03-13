@@ -8,7 +8,7 @@ export default function Events(){
 			<h1>Upcoming Events</h1>
             
 			</div>
-			<div style={{backgroundColor: 'lightGrey', paddingLeft: '200px',paddingRight: '200px', paddingTop: '50px', paddingBottom: '50px'}}>
+			<div style={{backgroundColor: 'lightGrey', paddingLeft: '100px',paddingRight: '100px', paddingTop: '50px', paddingBottom: '50px'}}>
 				<h2>Business Fair</h2>
 				<h3>April 16th, 6:30 - 8:30 PM</h3>
 				<h4>UC Davis ARC Ballroom B</h4>
@@ -20,11 +20,20 @@ Discover new opportunities, gain fresh perspectives, and stay ahead of the curve
 				</div>
 				
 			</div>
-			<div style={{backgroundColor: 'lightGrey', paddingLeft: '200px',paddingRight: '200px', paddingTop: '50px', paddingBottom: '50px'}}>
-				<h2>International Conference Development</h2>
-				<h3>Next year in SF</h3>
+			<div style={{backgroundColor: 'lightGrey', paddingLeft: '100px',paddingRight: '100px', paddingTop: '50px', paddingBottom: '50px'}}>
+				<h2>Collegiate DECA International Career Development Conference</h2>
+				<h3>April 5-8, 2024 in San Francisco, CA</h3>
+				<p>
+					<ul style={{ listStyle: 'disc' }}>
+                    	<li>Professional Development Series: Engage with business executives through a full day of professional development workshops, panels and sessions.</li>
+                    	<li>Competitive Events: 1,000 Collegiate DECA members demonstrate their career knowledge and skills by participating in Collegiate DECA’s Competitive Events Program in hopes of being named an international champion.</li>
+                    	<li>Career Exhibits + Networking: Network with representatives from corporate supporters and educational partners participating in the College and Career Exhibits.</li>
+						<li>Special Collegiate ICDC Programs: Sales Challenge, LinkedIn Photo Booth, the election of the new executive officer team and more!</li>
+                	</ul>
+				</p>
 			</div>
 		</div>
 		
 	)
 }
+

@@ -21,6 +21,10 @@ export default function Navbar(){
           <Link to="/about">About </Link>
           
         </li>
+        
+        <li className="nav-item">
+          <Link className="nav-link" to="/events"> Events </Link>
+        </li>
 
         <li>
           <Link to="/contact"> Contact </Link>
@@ -30,9 +34,7 @@ export default function Navbar(){
           <Link to="/apply"> Apply </Link>
         </li>
 
-        <li className="nav-item">
-          <Link className="nav-link" to="/events"> Events </Link>
-        </li>
+        
         
       </ul>
 </nav>

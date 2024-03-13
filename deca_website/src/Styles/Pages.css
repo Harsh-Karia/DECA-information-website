@@ -39,3 +39,14 @@ h2 {
     color: #0072ce;
 }
 
+.box {
+    display: inline-flex;
+}
+.leftBox {
+    float:left;
+    justify-content: space-around;
+}
+.rightBox {
+    float:right;
+    justify-content: space-around;
+}

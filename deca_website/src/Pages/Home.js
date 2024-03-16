@@ -1,49 +1,36 @@
 import React from "react";
 import '../Styles/Pages.css';
+import deca_logo from '../Images/deca_logo.png'
 
 export default function Home(){
 	return(
 		<div>	
-			<div>
-			<h1>DECA at UC Davis</h1>
-
-
-			</div>
-			<div style={{backgroundColor: 'lightGrey', paddingLeft: '200px',paddingRight: '200px', paddingTop: '50px', paddingBottom: '50px'}}>
-				<h2>What is DECA</h2>
-				<div>
-					<p>DECA stands for Distributive Education Clubs of America, an association that encourages the development of business and leadership skills through academic conferences and competitions
-An organization that prepares emerging leaders and entrepreneurs for careers in Marketing, Finance, Hospitality, and Management worldwide.</p>
-				</div>
-			</div>
 			<br></br>
 			<div className='box' >
-				<div className="leftBox"style={{backgroundColor: 'lightGrey', paddingLeft: '200px',paddingRight: '200px', paddingTop: '50px', paddingBottom: '50px'}}>
+				<div className="leftBox"style={{padding:'150px'}}>
+					<h1>DECA at UC Davis</h1>
 					<p>insert summary here</p>
 				</div>
-				<div style={{paddingLeft:'100px'}}></div>
-				<div className="rightBox"style={{backgroundColor: 'lightGrey', paddingLeft: '200px',paddingRight: '200px', paddingTop: '50px', paddingBottom: '50px'}}>
-					<p>insert image here</p>
+				<div className="rightBox"style={{padding: '150px'}}>
+					<img src={deca_logo} alt="deca_logo" width='200px'/>
 				</div>
 			</div>
+
+
 			<br></br>
 			<div className='box' >
-				<div className="leftBox"style={{backgroundColor: 'lightGrey', paddingLeft: '200px',paddingRight: '200px', paddingTop: '50px', paddingBottom: '50px'}}>
+				<div className="leftBox"style={{ padding:'100px'}}>
 					<p>about</p>
-				</div>
-				<div style={{paddingLeft:'100px'}}></div>
-				<div className="rightBox"style={{backgroundColor: 'lightGrey', paddingLeft: '200px',paddingRight: '200px', paddingTop: '50px', paddingBottom: '50px'}}>
-					<p>events</p>
-				</div>
-			</div>
-			<br></br>
-			<div className='box' >
-				<div className="leftBox"style={{backgroundColor: 'lightGrey', paddingLeft: '200px',paddingRight: '200px', paddingTop: '50px', paddingBottom: '50px'}}>
+					<button>Learn More</button>
 					<p>contact</p>
+					<button>Click Here</button>
 				</div>
-				<div style={{paddingLeft:'100px'}}></div>
-				<div className="rightBox"style={{backgroundColor: 'lightGrey', paddingLeft: '200px',paddingRight: '200px', paddingTop: '50px', paddingBottom: '50px'}}>
+
+				<div className="rightBox"style={{padding:'100px'}}>
+					<p>events</p>
+					<button>Explore</button>
 					<p>apply</p>
+					<button>Join</button>
 				</div>
 			</div>
 		</div>

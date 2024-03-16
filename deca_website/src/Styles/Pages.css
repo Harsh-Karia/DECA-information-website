@@ -41,12 +41,27 @@ h2 {
 
 .box {
     display: inline-flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    /* margin-bottom: 100px; */
+    /* width: 100%; */
+    justify-content: space-evenly;
 }
 .leftBox {
-    float:left;
-    justify-content: space-around;
+    /* float:left; */
+    align-content: center;
+    justify-content: center;
 }
 .rightBox {
-    float:right;
-    justify-content: space-around;
+    /* float:right; */
+    align-content: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px){
+    .box {
+        justify-content: space-around;
+        flex-direction: column;
+    }
 }

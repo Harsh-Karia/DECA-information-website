@@ -6,7 +6,7 @@ export default function Footer(){
 		
 		<footer >
 			<div className="ctn">
-				<p className="footer">Copyright © Your Website 2023</p>
+				<p className="footer">Copyright © DECA at UC Davis 2024</p>
 			</div>
 		</footer>
 	  

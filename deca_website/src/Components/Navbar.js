@@ -6,7 +6,7 @@ export default function Navbar(){
 	return(
 <nav className="nav">
     <Link className="siteName" to ='/'>
-      DECA
+      DECA at UC Davis
     </Link>
    
       <ul> 

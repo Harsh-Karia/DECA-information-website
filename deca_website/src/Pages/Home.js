@@ -6,6 +6,7 @@ import cookie_deco from '../Images/cookie_deco.png'
 import pizza_social from '../Images/pizza_social.jpg'
 import club_meeting from '../Images/club_meeting.jpg'
 import {Link} from 'react-router-dom';
+import { InstagramEmbed } from 'react-social-media-embed';
 
 export default function Home(){
 	return(
@@ -51,6 +52,11 @@ export default function Home(){
                             <button>Join Us!</button>
                     </Link>
 				</div>
+			</div>
+			<div style={{ display: 'flex', justifyContent: 'center' }}>
+				<InstagramEmbed url="https://www.instagram.com/p/CzCHMOXPCoX/?img_index=1" width={328} />
+				<InstagramEmbed url="https://www.instagram.com/p/CoJWHTZLQfg/" width={328} />
+				
 			</div>
 		</div>
 		

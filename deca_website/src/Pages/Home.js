@@ -1,36 +1,55 @@
 import React from "react";
 import '../Styles/Pages.css';
 import deca_logo from '../Images/deca_logo.png'
+import deca_table from '../Images/deca_table.jpg'
+import cookie_deco from '../Images/cookie_deco.png'
+import pizza_social from '../Images/pizza_social.jpg'
+import club_meeting from '../Images/club_meeting.jpg'
+import {Link} from 'react-router-dom';
 
 export default function Home(){
 	return(
 		<div>	
 			<br></br>
 			<div className='box' >
-				<div className="leftBox"style={{padding:'150px'}}>
+				<div className="leftBox">
 					<h1>DECA at UC Davis</h1>
-					<p>insert summary here</p>
+					<p>DECA at UC Davis is a student organization that prepares emerging leaders in marketing, finance, hospitality, and management through case challenges, professional development, and networking opportunities.</p>
 				</div>
-				<div className="rightBox"style={{padding: '150px'}}>
-					<img src={deca_logo} alt="deca_logo" width='200px'/>
+				<div className="rightBox">
+					<img src={deca_logo} alt="deca_logo" width='300px'/>
 				</div>
 			</div>
 
 
 			<br></br>
 			<div className='box' >
-				<div className="leftBox"style={{ padding:'100px'}}>
+				<div className="leftBox">
+					<img src={deca_table} alt="deca_table" width='300px'/>
 					<p>about</p>
-					<button>Learn More</button>
+					<Link to="/about">
+                            <button>Learn More</button>
+                    </Link>
+					<div style={{padding:'20px'}}></div>
+					<img src={club_meeting} alt="club_meeting" width='300px'/>
 					<p>contact</p>
-					<button>Click Here</button>
+					<Link to="/contact">
+                            <button>Contact Us</button>
+                    </Link>
 				</div>
 
-				<div className="rightBox"style={{padding:'100px'}}>
+				<div className="rightBox">
+					<img src={cookie_deco} alt="cookie_deco" width='300px'/>
 					<p>events</p>
-					<button>Explore</button>
+					<Link to="/events">
+                            <button>Explore Opportunities</button>
+                    </Link>
+					<div style={{padding:'20px'}}></div>
+					<img src={pizza_social} alt="pizza_social" width='300px'/>
 					<p>apply</p>
-					<button>Join</button>
+					<Link to="/apply">
+                            <button>Join Us!</button>
+                    </Link>
 				</div>
 			</div>
 		</div>

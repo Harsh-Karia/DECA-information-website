@@ -53,9 +53,21 @@ export default function Home(){
                     </Link>
 				</div>
 			</div>
-			<div style={{ display: 'flex', justifyContent: 'center' }}>
-				<InstagramEmbed url="https://www.instagram.com/p/CzCHMOXPCoX/?img_index=1" width={328} />
-				<InstagramEmbed url="https://www.instagram.com/p/CoJWHTZLQfg/" width={328} />
+			
+			<div className="box">
+				<div className="leftBox" style={{justifyContent:'flex-start'}}>
+					<h1>Connect with Us.</h1>
+					<h3>Contact DECA at UC Davis to learn more about future opporutnites.</h3>
+					<Link to="/apply">
+                            <button>Contact Us</button>
+                    </Link>
+				</div>
+				<div className="rightBox"> 
+					<InstagramEmbed url="https://www.instagram.com/p/CzCHMOXPCoX/?img_index=1" width={328} />
+					{/* <InstagramEmbed url="https://www.instagram.com/p/CoJWHTZLQfg/" width={328} /> */}
+
+				</div>
+				
 				
 			</div>
 		</div>

@@ -29,13 +29,13 @@ export default function Home(){
 					<img src={deca_table} alt="deca_table" width='300px'/>
 					<p>about</p>
 					<Link to="/about">
-                            <button>Learn More</button>
+                            <button class = "rbutton">Learn More</button>
                     </Link>
 					<div style={{padding:'20px'}}></div>
 					<img src={club_meeting} alt="club_meeting" width='300px'/>
 					<p>contact</p>
 					<Link to="/contact">
-                            <button>Contact Us</button>
+                            <button class = "rbutton">Contact Us</button>
                     </Link>
 				</div>
 
@@ -43,13 +43,13 @@ export default function Home(){
 					<img src={cookie_deco} alt="cookie_deco" width='300px'/>
 					<p>events</p>
 					<Link to="/events">
-                            <button>Explore Opportunities</button>
+                            <button class = "rbutton">Explore Opportunities</button>
                     </Link>
 					<div style={{padding:'20px'}}></div>
 					<img src={pizza_social} alt="pizza_social" width='300px'/>
 					<p>apply</p>
 					<Link to="/apply">
-                            <button>Join Us!</button>
+                            <button class = "rbutton">Join Us!</button>
                     </Link>
 				</div>
 			</div>

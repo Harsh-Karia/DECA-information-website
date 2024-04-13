@@ -1,3 +1,10 @@
+.home_front {
+    display:flex;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    flex-direction: column;
+}
+
 .competition{
     width: 50%;
     

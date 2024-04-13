@@ -2,26 +2,22 @@
 	box-sizing: border-box;
   }
 
-  
-	
   body {
 	margin: 0;
   }
   
   .container {
-	
 	text-align: center;
   }
   
   .nav {
-	background-color: #0f487c;
+	background-color: #0072ce;
 	color: white;
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
 	gap: 2rem;
 	padding:  0.5rem 2rem;
-
   }
   
   .siteName {
@@ -54,7 +50,3 @@
   .nav li:hover {
 	background-color: #777;
   }
-
-
-
-

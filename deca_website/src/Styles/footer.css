@@ -1,9 +1,8 @@
 .ctn{
-	background-color: #0f487c;
+	background-color: #0072ce;
 	gap: 1rem;
 	padding: 0.01rem;
 	bottom: 100%
-	
 }
 
 .footer{
@@ -11,6 +10,4 @@
 	font-family: 'Gotham Bold';
 	color: white;
 	top: 50%;
-	
-	
 }

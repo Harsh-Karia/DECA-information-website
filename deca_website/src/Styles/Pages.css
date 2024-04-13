@@ -1,16 +1,20 @@
-.home_front {
+.page_front {
     display:flex;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 100px;
     flex-direction: column;
 }
 
 .competition{
+    /* display: flex; */
+    /* background-color:grey; */
     width: 50%;
-    
-    
-    align-items: flex-start;
-    padding: 50px;
+    /* align-items: flex-start; */
+    padding: 80px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
 }
 
 .card{
@@ -39,16 +43,14 @@
 .card .card-text{
     font-family: Arial, sans-serif;
     color: hsl(0, 0%, 30%);
-    
-    
+    justify-content: flex-start;
+    text-align: left;
 }
 
 body {
     background-color: white;
     width: 100%;
 }
-
-
 
 .blue {
     color: #0072ce;
@@ -75,28 +77,20 @@ p{
     font-family:'Source Sans Pro', sans-serif;
 }
 
-
-
 .card-container {
   display: flex;
   justify-content: space-between; /* Adjust spacing between cards */
 }
 
-
-
 h1{
     color: #0072ce;
     /* font-family: 'Gotham Bold', sans-serif; */
-    /* font-weight: 2200px; */
     font-size: 50px;
 }
-
-
 
 h2 {
     color: #0072ce;
 }
-
 
 .box {
     display: inline-flex;
@@ -113,19 +107,24 @@ h2 {
     width: 50%;
     align-content: center;
     justify-content: center;
-    padding:100px;
+    padding-left:90px;
+    padding-right:30px;
+    text-align: left;
 }
 .rightBox {
     /* float:right; */
     width: 50%;
     align-content: center;
     justify-content: center ;
-    padding:100px;
+    padding-right:90px;
+    padding-left:30px;
+    text-align: left;
 }
 @media only screen and (max-width: 600px){
     .box {
         justify-content: center;
         flex-direction: column;
+        width: 100%;
     }
     .leftBox {
         /* float:left; */
@@ -143,6 +142,17 @@ h2 {
         justify-content: center;
         padding:50px;
     }
+    .competition{
+        /* display: flex; */
+        /* background-color:grey; */
+        width: 100%;
+        /* align-items: flex-start; */
+        padding: 80px;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        /* align-content: center; */
+    }
 }
 
 .rbutton {
@@ -155,6 +165,11 @@ h2 {
     display: inline-block;
     font-size: 16px;
     border-radius: 12px;
-  }
+}
+button:hover {
+    background-color: #777;
+}
 
-  
+img {
+    border-radius: 20px;
+}

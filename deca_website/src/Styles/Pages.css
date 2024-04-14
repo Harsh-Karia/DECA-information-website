@@ -173,3 +173,62 @@ button:hover {
 img {
     border-radius: 20px;
 }
+
+.ctn{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left:90px;
+    padding-right:30px;
+    text-align: center;
+}
+
+
+
+  form {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+
+    input {
+      width: 50%;
+      height: 35px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+
+      &:focus {
+        border: 2px solid#0072ce;
+      }
+    }
+
+    textarea {
+  
+      width: 50%;
+      max-height: 100px;
+      min-height: 100px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid #0072ce;
+
+      &:focus {
+        border: 2px solid #0072ce;
+      }
+    }
+
+    label {
+      margin-top: 1rem;
+    }
+
+    input[type="submit"] {
+      margin-top: 2rem;
+      cursor: pointer;
+      background: #0072ce;
+      color: white;
+      border: none;
+    }
+  }

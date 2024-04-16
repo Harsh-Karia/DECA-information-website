@@ -1,9 +1,10 @@
-import React, { useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import '../Styles/Pages.css'
 
 export default function ContactForm(){
-	const form = useRef();
+	const [submitted, setSubmitted] = useState(false);
+	const form = useRef(null);
 
 	const sendEmail = (e) => {
 	  e.preventDefault();
@@ -20,6 +21,7 @@ export default function ContactForm(){
 			console.log('FAILED...', error.text);
 		  },
 		);
+		setSubmitted(true);
 	};
   
 	return(
@@ -31,6 +33,7 @@ export default function ContactForm(){
 			<label>Message</label>
 			<textarea name="message" />
 			<input type="submit" value="Send" />
+			{submitted && <div>Thank you for your message! We will contact you shortly</div>}
    		</form>
 	);
 }

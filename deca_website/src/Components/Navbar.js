@@ -1,12 +1,13 @@
 import React from "react";
 import '../Styles/nav.css'
 import { Link } from "react-router-dom";
+import UCD_logo from "../Images/UCD_DECA_logo.png"
 
 export default function Navbar(){
 	return(
 <nav className="nav">
     <Link className="siteName" to ='/'>
-      DECA at UC Davis
+      <img src={UCD_logo} alt="ucd_deca_logo" style={{height:'50px',borderRadius:'0px'}}/>
     </Link>
       <ul> 
         {/* <li>

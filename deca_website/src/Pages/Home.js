@@ -15,6 +15,7 @@ export default function Home(){
 				<div>
 					<h1>Deca at UC Davis</h1>
 					<h3>Preparing emerging leaders in marketing, finance, hospitality, and management at UC Davis</h3>
+					<br></br>
 					<Link to="/about" >
                             <button class = "rbutton">Learn More About Deca at UC Davis</button>
                     </Link>
@@ -26,16 +27,16 @@ export default function Home(){
 			<div className='box' >
 				<div className="leftBox" style={{textAlign:'center'}}>
 					<img src={cookie_deco} alt="cookie_deco" width='400px'/>
-					<br/>
+					<br></br>
 					<Link to="/events">
-                        <button class = "rbutton">Explore Opportunities</button>
+                        <button class = "rbutton" style={{marginTop:'10px'}}>Explore Opportunities</button>
                     </Link>
 				</div>
 				<div className="rightBox" style={{textAlign:'center'}}>
 					<img src={pizza_social} alt="pizza_social" width='400px'/>
 					<br/>
 					<Link to="/apply">
-                        <button class = "rbutton">Join Us!</button>
+                        <button class = "rbutton" style={{marginTop:'10px'}}>Join Us!</button>
                     </Link>
 				</div>
 			</div>

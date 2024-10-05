@@ -16,7 +16,7 @@ export default function Home(){
 				<h3>Preparing emerging leaders in marketing, finance, hospitality, and management at UC Davis</h3>
 				<br/>
 				<Link to="/about" >
-                    <button>Learn More About Deca at UC Davis</button>
+                    <button>Learn More About DECA at UC Davis</button>
                 </Link>
 				<br/>
 				<img src={deca_table} alt="deca_table" width='400px'style={{margin:'50px'}}/>

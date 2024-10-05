@@ -12,7 +12,7 @@ export default function Home(){
 	return(
 		<div className="page_front">	
 			<div className="landing">
-				<h1>Deca at UC Davis</h1>
+				<h1>DECA at UC Davis</h1>
 				<h3>Preparing emerging leaders in marketing, finance, hospitality, and management at UC Davis</h3>
 				<br/>
 				<Link to="/about" >

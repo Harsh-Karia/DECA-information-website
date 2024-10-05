@@ -10,47 +10,45 @@ import { InstagramEmbed } from 'react-social-media-embed';
 
 export default function Home(){
 	return(
-		<div>	
-			<div class="page_front">
-				<div>
-					<h1>Deca at UC Davis</h1>
-					<h3>Preparing emerging leaders in marketing, finance, hospitality, and management at UC Davis</h3>
-					<br></br>
-					<Link to="/about" >
-                            <button class = "rbutton">Learn More About Deca at UC Davis</button>
-                    </Link>
-					<br></br>
-					<img src={deca_table} alt="deca_table" width='400px'style={{margin:'50px'}}/>
-				</div>
+		<div className="page_front">	
+			<div className="landing">
+				<h1>Deca at UC Davis</h1>
+				<h3>Preparing emerging leaders in marketing, finance, hospitality, and management at UC Davis</h3>
+				<br/>
+				<Link to="/about" >
+                    <button>Learn More About Deca at UC Davis</button>
+                </Link>
+				<br/>
+				<img src={deca_table} alt="deca_table" width='400px'style={{margin:'50px'}}/>
 			</div>
-			<br></br>
 			<div className='box' >
-				<div className="leftBox" style={{textAlign:'center'}}>
+				<div className="half_box">
 					<img src={cookie_deco} alt="cookie_deco" width='400px'/>
-					<br></br>
+					<br/>
 					<Link to="/events">
-                        <button class = "rbutton" style={{marginTop:'10px'}}>Explore Opportunities</button>
+                        <button style={{marginTop:'10px'}}>Explore Opportunities</button>
                     </Link>
 				</div>
-				<div className="rightBox" style={{textAlign:'center'}}>
+				<div className="half_box">
 					<img src={pizza_social} alt="pizza_social" width='400px'/>
 					<br/>
 					<Link to="/apply">
-                        <button class = "rbutton" style={{marginTop:'10px'}}>Join Us!</button>
+                        <button style={{marginTop:'10px'}}>Join Us!</button>
                     </Link>
 				</div>
-			</div>
-			<div className="box" style={{paddingTop:'170px', paddingBottom:'100px'}}>
-				<div className="leftBox" style={{justifyContent:'flex-start'}}>
-					<h1>Connect with Us.</h1>
-					<h3>Contact DECA at UC Davis to learn more about future opporutnites.</h3>
-					<Link to="/apply">
-                            <button class = "rbutton">Contact Us</button>
-                    </Link>
+				<div className="box">
+					<div className="half_box" style={{textAlign: 'left'}}>
+						<h1>Connect with Us.</h1>
+						<h3>Contact DECA at UC Davis to learn more about future opporutnites.</h3>
+						<Link to="/apply">
+								<button class = "rbutton">Contact Us</button>
+						</Link>
+					</div>
+					<div className="half_box"> 
+						<InstagramEmbed url="https://www.instagram.com/p/CplQvPIPMCS/?img_index=1" width='328px' style={{padding:'0px', margin:'0px'}}/>
+					</div>	
 				</div>
-				<div className="rightBox"> 
-					<InstagramEmbed url="https://www.instagram.com/p/CzCHMOXPCoX/?img_index=1" width='328px' />
-				</div>	
+				
 			</div>
 		</div>
 	)

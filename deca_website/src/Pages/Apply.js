@@ -8,10 +8,6 @@ export default function Apply() {
 		<div className="page_front">
 			<h1>Apply this Quarter</h1>
 
-			<h3>Stay updated with our socials:</h3>
-			<Link target={"_blank"} to="https://www.instagram.com/deca.ucd/">
-				<img src={ig_logo} alt="ig_logo" style={{ height: 50, borderRadius: '0px' }} />
-			</Link>
 
 			<h3>Application Form:</h3>
 			{/* Embedding Google Form */}
@@ -26,6 +22,12 @@ export default function Apply() {
 			>
 				Loading…
 			</iframe>
+			
+			<h3>Stay updated with our socials:</h3>
+			<Link target={"_blank"} to="https://www.instagram.com/deca.ucd/">
+				<img src={ig_logo} alt="ig_logo" style={{ height: 50, borderRadius: '0px' }} />
+			</Link>
+
 		</div>
 	)
 }

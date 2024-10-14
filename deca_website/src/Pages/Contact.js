@@ -4,13 +4,9 @@ import ContactForm from '../Components/ContactForm'
 
 export default function Contact(){
 	return(
-		<div>
+		<div className="page_front">
 			<h1>Contact Page</h1>
 			<ContactForm/>
-			<br></br>
-			<br></br>
-			<br></br>
-			<div></div>
 		</div>
 	)
 }
